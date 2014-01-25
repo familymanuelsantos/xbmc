@@ -48,6 +48,7 @@ extern "C" {
     #include "xbmc-libav-hacks/libav_hacks.h"
   #endif
 #else
+  #include "libavutil/frame.h"
   #include "libavutil/avutil.h"
   //for av_get_default_channel_layout
   #include "libavutil/audioconvert.h"
