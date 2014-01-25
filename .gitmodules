@@ -2,3 +2,6 @@
 	path = addons/skin.touched
 	url = git://github.com/xbmc/skin.touched.git
 	ignore = all
+[submodule "lib/ffmpeg"]
+	path = lib/ffmpeg
+	url = https://github.com/craigcarnell/FFmpeg.git
